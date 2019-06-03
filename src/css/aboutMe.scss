@@ -1,3 +1,48 @@
 .aboutMeDiv {
+	background-image: url("../images/bay.jpg");
+	background-position: center;
+	background-size: cover;
+    height: 1000px;
+    width: 100%;
 	display: flex;
+
+	.profileImg {
+        width: 40%;
+		margin: auto 0 auto auto;
+		text-align: center;
+		img {
+            width: 70%;
+            max-width: 600px;
+			border-radius: 10px;
+		}
+	}
+
+	.myInfo {
+        float: left;
+        width: 40%;
+		text-align: center;
+		margin: auto auto auto 0;
+		background: rgb(244, 254, 253);
+		border-radius: 10px;
+		padding: 15px;
+	}
+}
+
+@media only screen and (max-width: 1170px) {
+    .aboutMeDiv {
+        flex-direction: column;
+
+        .profileImg {
+            width: 90%;
+            max-width: 600px;
+            text-align: center;
+            margin: 25px auto 35px auto;
+        }
+
+        .myInfo {
+            margin: 0 auto 20px auto;
+            width: 80%;
+        }
+    }
+
 }

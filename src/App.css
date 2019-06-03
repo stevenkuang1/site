@@ -31,3 +31,12 @@
 		transform: rotate(360deg);
 	}
 }
+
+a {
+ color: rgb(242, 128, 126);
+}
+
+a:hover {
+	color: purple;
+	text-decoration: none;
+}
