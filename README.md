@@ -1,3 +1,3 @@
 Personal Site!
 ========
-**stevenkuang1.github.io/site**
+**<https://github.com/stevenkuang1/site>**
