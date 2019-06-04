@@ -1,0 +1,46 @@
+.activitiesDiv {
+	margin: 50px auto 50px auto;
+	max-width: 2000px;
+
+	h1 {
+		color: rgb(204, 120, 204);
+	}
+
+	.activitiesListDiv {
+		margin: 30px 80px;
+
+		.listFlex {
+			display: flex;
+
+			.leftListFlex {
+				width: 50%;
+			}
+
+			.rightListFlex {
+				margin: 20px auto 50px 50px;
+				width: 50%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1170px) {
+	.activitiesDiv {
+		.activitiesListDiv {
+			margin: 20px 30px;
+			.listFlex {
+				flex-direction: column;
+				margin-bottom: 40px;
+
+				.leftListFlex {
+					width: 100%;
+				}
+
+				.rightListFlex {
+					margin: 10px auto;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
