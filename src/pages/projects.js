@@ -14,7 +14,11 @@ export class projects extends Component {
 							<img src={Project1} />
 						</div>
 						<div className="projectDescrip1">
-							<h3>E-Commerce Web Application</h3>
+							<h3>
+								<a href="https://github.com/JamesAngeles21/305Project" target="_blank">
+									E-Commerce Web Application
+								</a>
+							</h3>
 							<h5>
 								An e-commerce site where authorized users have the functionality of selling, buying, and
 								reviewing items. This project was created to learn the ins and outs of databases and how
@@ -28,7 +32,11 @@ export class projects extends Component {
 							<img src={Project2} />
 						</div>
 						<div className="projectDescrip2">
-							<h3>Stony Brook Meta Language Project</h3>
+							<h3>
+								<a href="https://github.com/stevenkuang1/sbml" target="_blank">
+									Stony Brook Meta Language Project
+								</a>
+							</h3>
 							<h5>
 								Stony Brook Meta Language, SBML, is a custom language built from scratch using Python’s
 								Lex and Yacc. The grammar expressions, statements, and functions of SBML were heavily

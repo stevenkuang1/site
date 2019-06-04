@@ -9,7 +9,7 @@
 }
 
 .App-header {
-	background-color: #f5d1cec7;
+	background-color: #f3d1cf;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -33,7 +33,7 @@
 }
 
 a {
-	color: rgb(242, 128, 126);
+	color: rgb(243, 113, 111);
 }
 
 a:hover {

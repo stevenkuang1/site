@@ -1,13 +1,14 @@
 .activitiesDiv {
-	margin: 50px auto 50px auto;
+	margin: 50px auto 0px auto;
 	max-width: 2000px;
 
 	h1 {
 		color: rgb(204, 120, 204);
+		text-decoration: underline;
 	}
 
 	.activitiesListDiv {
-		margin: 30px 80px;
+		margin: 70px;
 
 		.listFlex {
 			display: flex;
@@ -18,6 +19,11 @@
 
 			.rightListFlex {
 				margin: 20px auto 50px 50px;
+				width: 50%;
+			}
+
+			.rightListFlex1 {
+				margin: 20px auto 0px 50px;
 				width: 50%;
 			}
 		}
@@ -36,7 +42,8 @@
 					width: 100%;
 				}
 
-				.rightListFlex {
+				.rightListFlex,
+				.rightListFlex1 {
 					margin: 10px auto;
 					width: 100%;
 				}

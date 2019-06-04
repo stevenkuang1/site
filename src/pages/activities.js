@@ -14,10 +14,14 @@ export class activities extends Component {
 						</div>
 						<div className="rightListFlex">
 							<h5>
-								Responsible for building a website for a start up, Comake(comake.io), based on provided
-								designs. Languages that I used to build the website were HTML, CSS, JavaScript, and D3.
-								I have learned how to better optimize a website in terms of responsiveness and display
-								data in more appealing ways.
+								Responsible for building a website for a start up, Comake(<a
+									href="https://comake.io/"
+									target="_blank"
+								>
+									comake.io
+								</a>), based on provided designs. Languages that I used to build the website were HTML,
+								CSS, JavaScript, and D3. I have learned how to better optimize a website in terms of
+								responsiveness and display data in more appealing ways.
 							</h5>
 						</div>
 					</div>
@@ -54,7 +58,7 @@ export class activities extends Component {
 							<i class="fas fa-code" />
 							<h3>Stony Brook Computing Society: Member</h3>
 						</div>
-						<div className="rightListFlex">
+						<div className="rightListFlex1">
 							<h5>
 								An official Stony Brook club that hosts weekly meetings and events for students
 								interested in computer programming. They also host seminars directed by students and
