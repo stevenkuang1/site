@@ -1,17 +1,19 @@
 import React, { Component } from 'react';
 import Project1 from '../images/project1.png';
+import Project2 from '../images/project2.png';
+import '../css/project.scss';
 
 export class projects extends Component {
 	render() {
 		return (
-			<div>
-				<h2>Projects</h2>
-				<div>
-					<div>
-						<div>
+			<div className="projectDiv">
+				<h1>Projects</h1>
+				<div className="flexProject">
+					<div className="flexTop">
+						<div className="projectImage">
 							<img src={Project1} />
 						</div>
-						<div>
+						<div className="projectDescrip1">
 							<h3>E-Commerce Web Application</h3>
 							<h5>
 								An e-commerce site where authorized users have the functionality of selling, buying, and
@@ -21,9 +23,11 @@ export class projects extends Component {
 							</h5>
 						</div>
 					</div>
-					<div>
-						<div>SBML</div>
-						<div>
+					<div className="flexBot">
+						<div className="projectImage">
+							<img src={Project2} />
+						</div>
+						<div className="projectDescrip2">
 							<h3>Stony Brook Meta Language Project</h3>
 							<h5>
 								Stony Brook Meta Language, SBML, is a custom language built from scratch using Python’s

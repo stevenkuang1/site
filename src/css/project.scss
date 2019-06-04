@@ -1,0 +1,87 @@
+.projectDiv {
+	margin: 50px auto 50px auto;
+	max-width: 2000px;
+
+	.flexProject {
+		margin: 80px 100px 80px 50px;
+
+		.flexTop {
+			display: flex;
+
+			.projectImage {
+				margin: auto;
+				img {
+					width: 75%;
+				}
+			}
+
+			.projectDescrip1 {
+				float: right;
+				margin: auto 0 auto auto;
+				width: 40%;
+			}
+		}
+
+		.flexBot {
+			display: flex;
+			margin-top: 60px;
+
+			.projectImage {
+				margin: auto;
+				width: 40%;
+				img {
+					width: 100%;
+					min-width: 400px;
+				}
+			}
+
+			.projectDescrip2 {
+				float: right;
+				margin: auto 0;
+				width: 40%;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1170px) {
+	.projectDiv {
+		.flexProject {
+			margin: auto 30px;
+			.flexTop {
+				flex-direction: column;
+
+				.projectImage {
+					img {
+						min-width: 300px;
+					}
+				}
+
+				.projectDescrip1 {
+					float: none;
+					margin: 20px auto auto auto;
+					width: 100%;
+				}
+			}
+
+			.flexBot {
+				flex-direction: column;
+
+				.projectImage {
+					width: 100%;
+					img {
+						width: 100%;
+						min-width: 300px;
+						max-width: 600px;
+					}
+				}
+
+				.projectDescrip2 {
+					float: none;
+					margin: 20px auto auto auto;
+					width: 100%;
+				}
+			}
+		}
+	}
+}

@@ -13,12 +13,13 @@ export class aboutMe extends Component {
 				<div className="myInfo">
 					<h1>Welcome!</h1>
 					<h5>
-						Hi! I am Steven Kuang, a Computer Science major at <a href="https://www.stonybrook.edu/">Stony Brook University</a>. On my free time, I
-						like to challenge myself by learning new programming languages either through videos or tutorial
-						websites. Languages that I have experience in are Java, C, HTML, CSS, React JS, MIPS Assembly, Python, SML, and
-						Prolog.
-						When I’m not coding, you will find me binge watching my Korean dramas, playing games, or
-						sleeping the day away. Oh, I also love drinking boba (Strawberry Lemon Green Tea). ♥
+						Hi! I am Steven Kuang, a Computer Science major at{' '}
+						<a href="https://www.stonybrook.edu/">Stony Brook University</a>. On my free time, I like to
+						challenge myself by learning new programming languages either through videos or tutorial
+						websites. Languages that I have experience in are Java, C, HTML, CSS, React JS, MIPS Assembly,
+						Python, SML, and Prolog. When I’m not coding, you will find me binge watching my Korean dramas,
+						playing games, or sleeping the day away. Oh, I also love drinking boba (Strawberry Lemon Green
+						Tea). ♥
 					</h5>
 					<h5>
 						<a href={Resume}>Resume</a>
