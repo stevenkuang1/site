@@ -10,7 +10,7 @@ export class activities extends Component {
 					<div className="listFlex">
 						<div className="leftListFlex">
 							<i class="fas fa-laptop-code" />
-							<h3>Comake: Software Engineering Intern New York</h3>
+							<h3>Comake: Software Engineering Intern</h3>
 						</div>
 						<div className="rightListFlex">
 							<h5>
